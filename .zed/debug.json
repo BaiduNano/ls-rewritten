@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Debug",
+        "build": {
+            "command": "./scripts/build-debug.sh",
+            "args": [],
+            "env": {},
+        },
+        "cwd": "$ZED_WORKTREE_ROOT/build",
+        "program": "$ZED_WORKTREE_ROOT/build/ls",
+        "request": "launch",
+        "adapter": "CodeLLDB",
+    },
+]

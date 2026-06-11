@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Configure",
+        "command": "./scripts/configure-debug.sh",
+        "args": [],
+        "env": {},
+    },
+    {
+        "label": "Build Debug",
+        "command": "./scripts/build-debug.sh",
+        "args": [],
+        "env": {},
+    },
+    {
+        "label": "Build Release",
+        "command": "./scripts/build-release.sh",
+        "args": [],
+        "env": {},
+    },
+    {
+        "label": "Configure Release",
+        "command": "./scripts/configure-release.sh",
+        "args": [],
+        "env": {},
+    },
+    {
+        "label": "Clean Build",
+        "command": "./scripts/clean-build.sh",
+        "args": [],
+        "env": {},
+    },
+]
