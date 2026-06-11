@@ -7,6 +7,6 @@ enum Flags {
     F_VERBOSE
 };
 
-extern int flags;
+extern enum Flags flags;
 
 #endif // GLOBALS_H

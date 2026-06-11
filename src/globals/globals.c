@@ -1,3 +1,3 @@
 #include "globals.h"
 
-int flags = F_NONE;
+enum Flags flags = F_NONE;
